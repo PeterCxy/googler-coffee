@@ -13,6 +13,7 @@ argv = require 'yargs'
   .describe 'c', 'Country-specific Google domain suffix. e.g com.hk co.uk'
   .alias 'x', 'exact'
   .describe 'x', 'Turn off auto-correction'
+  .boolean [ 'x' ]
   .demand 1
   .usage 'Usage: $0 <query> [options]'
   .help 'h'
