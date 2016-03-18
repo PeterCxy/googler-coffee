@@ -72,6 +72,8 @@ exports.google = (options, callback) ->
         content = $(@).find('div.s span.st').text()?.trim()
         unless !title? or !content? or title is '' or content is ''
           url = $(@).find('h3 a[target=_blank]').attr('href')
+          if !url?
+            url = $(@).find('h3 a').attr('href')
           results.push
             title: title
             content: content
