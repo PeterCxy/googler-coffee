@@ -42,3 +42,7 @@ Options:
   -x, --exact  Turn off auto-correction [boolean]
   -h, --help   Print this information   [boolean]
 ```
+
+CAPTCHA
+---
+I haven't come up with any solution yet. Please try to use IPv6 as IPv6 has a large amount of addresses.
