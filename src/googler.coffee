@@ -56,6 +56,8 @@ exports.google = (options, callback) ->
   # Make the request
   request
     url: url
+    gzip: yes
+    jar: yes
     headers:
       "User-Agent": UA
   , (err, res, body) ->
