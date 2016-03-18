@@ -1,6 +1,6 @@
 {
   "name": "googler-coffee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google search and result parser module written in CoffeeScript",
   "main": "index.js",
   "scripts": {
